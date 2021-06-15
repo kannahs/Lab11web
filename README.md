@@ -82,6 +82,8 @@
 
 ![a19](https://github.com/kannahs/Lab11web/blob/master/Image/a19.PNG?raw=true)
 
+![a20](https://github.com/kannahs/Lab11web/blob/master/Image/a20.PNG?raw=true)
+
 
 ## Tugas 
 1 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehinggasemua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
