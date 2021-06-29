@@ -1,4 +1,4 @@
-# Praktikum 11: PHP Framework (Codeigniter)
+# Praktikum 11 & 13: PHP Framework (Codeigniter)
 ## Langkah-Langkah
 - Aktifkan ekstensi pada xampp dengan cara, buka xampp pada bagian apache klik config dan buka php.ini
 
@@ -103,3 +103,58 @@
 - Halaman Term of services
 
 ![tugasB2](https://github.com/kannahs/Lab11web/blob/master/Image/tugasB2.PNG?raw=true)
+
+# Praktikum 13
+
+- Membuat tabel user.
+
+![a1](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a1.PNG?raw=true)
+
+- Membuat model user
+- Buat file baru pada direktori app/Models dengan nama UserModel.php.
+
+![a2](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a2.PNG?raw=true)
+
+-Buat Controller baru dengan nama User.php pada direktori app/Controllers.Kemudian tambahkan method index() untuk menampilkan daftar user, dan method login() untuk proses login. 
+
+![a3](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a3.PNG?raw=true)
+
+- Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
+
+![a4](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a4.PNG?raw=true)
+
+- Buka CLI, kemudian tulis perintah berikut:
+
+![a5](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a5.PNG?raw=true)
+
+- Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+
+![a6](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a6.PNG?raw=true)
+
+- Selanjutnya buka kembali CLI dan ketik perintah berikut:
+
+![a7](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a7.PNG?raw=true)
+
+- Selanjutnya buka url http://localhost:8080/user/login seperti berikut: 
+
+![b8](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/b8.PNG?raw=true)
+
+- Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.
+
+![a9](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a9.PNG?raw=true)
+
+- Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+
+![a10](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a10.PNG?raw=true)
+
+- Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+
+![a11](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/a11.PNG?raw=true)
+
+- Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
+
+![b11](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/b11.PNG?raw=true)
+
+- Tambahkan method logout pada Controller User seperti berikut:
+
+![A12](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/A12.PNG?raw=true)
