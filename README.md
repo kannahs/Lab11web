@@ -82,6 +82,7 @@
 
 ![a19](https://github.com/kannahs/Lab11web/blob/master/Image/a19.PNG?raw=true)
 
+- OUTPUTNYA .
 ![a20](https://github.com/kannahs/Lab11web/blob/master/Image/a20.PNG?raw=true)
 
 
