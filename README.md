@@ -158,3 +158,50 @@
 - Tambahkan method logout pada Controller User seperti berikut:
 
 ![A12](https://github.com/kannahs/Lab11web/blob/master/Image%20praktikum%2013/A12.PNG?raw=true)
+
+
+# Praktikum 14
+## Membuat Pagination
+
+- Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website.
+- Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
+
+![a1](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a1.PNG?raw=true)
+
+- Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data.
+![a2](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a2.PNG?raw=true)
+
+- Selanjutnya buka kembali menu daftar artikel.
+![b1](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/b1.PNG?raw=true)
+
+## Membuat Pencarian
+
+- Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut
+
+![a3](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a3.PNG?raw=true)
+
+- Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+
+![a4](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a4.PNG?raw=true)
+
+- Dan pada link pager ubah seperti berikut.
+
+![a5](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a5.PNG?raw=true)
+
+- Selanjutnya ujicoba dengan membuka kembali halaman admin artikel. 
+
+![b5](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/b5.PNG?raw=true)
+
+## Upload Gambar
+
+- Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+
+![a6](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a6.PNG?raw=true)
+
+- Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+
+![a7](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/a7.PNG?raw=true)
+
+- Ujicoba file upload dengan mengakses menu tambah artikel. 
+
+![b7](https://github.com/kannahs/Lab11web/blob/master/image%20praktikum%2014/b7.PNG?raw=true)
